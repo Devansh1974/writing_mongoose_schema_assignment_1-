@@ -5,13 +5,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
     unique: true,
-  }
-//   **`username`**
-
-//    - **Type**: String
-//    - **Constraints**: Required, Unique
-//    - **Purpose**: Ensures each user has a distinct username.
-,
+  },
   email: {
     type: String,
     required: true,
